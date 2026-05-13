@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Marigold Bagels</title>
+    <meta name="description" content="View Marigold Bagels photos featuring fresh bagels, sandwiches, trays, rainbow bagels, and the bakery team.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Marigold Bagels home">
+            <img src="images/logo.png" alt="Marigold Bagels logo">
+            <span>Marigold Bagels</span>
+        </a>
+
+        <!-- Main Navigation -->
+        <nav class="site-nav" aria-label="Main navigation">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button>
+            <ul id="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero gallery-hero">
+            <div>
+                <p class="eyebrow">Gallery</p>
+                <h1>Fresh bagels look good before they even hit the plate.</h1>
+                <p>A quick look at the counter, kitchen, catering trays, and colorful specials.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="section" aria-labelledby="gallery-heading">
+            <div class="section-heading">
+                <p class="eyebrow">Photos</p>
+                <h2 id="gallery-heading">Around Marigold</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <figure>
+                    <img src="images/bagel-shop.jpg" alt="Bagel shop counter with labeled bins">
+                    <figcaption>Morning counter</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bagel-sandwich.jpg" alt="Breakfast bagel sandwich with egg and bacon">
+                    <figcaption>Breakfast sandwich</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bagel-stack.jpeg" alt="Close-up of bagels at the bakery counter">
+                    <figcaption>Classic flavors</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/basket-bagels.jpg" alt="Basket filled with golden bagels">
+                    <figcaption>Dozen to go</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/eggandcheese.jpg" alt="Egg and cheese bagel sandwich cut in half">
+                    <figcaption>Egg and cheese</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon bagel.jpg" alt="Salmon bagel with cream cheese, capers, and dill">
+                    <figcaption>Salmon bagel</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/stackbagel.webp" alt="Stacked bagel sandwiches next to a Marigold Bagels coffee cup">
+                    <figcaption>Bagel stack</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bagel-trays.jpg" alt="Fresh bagels stacked on trays">
+                    <figcaption>Catering prep</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bakery-team.jpg" alt="Bakery team smiling with bagels">
+                    <figcaption>Our team</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rainbow-bagel.jpg" alt="Rainbow bagels with cream cheese">
+                    <figcaption>Rainbow special</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="section video-section" aria-labelledby="video-heading">
+            <div class="section-heading">
+                <p class="eyebrow">In motion</p>
+                <h2 id="video-heading">Rainbow bagel moment</h2>
+            </div>
+            <video controls muted playsinline poster="images/rainbow-bagel.jpg">
+                <source src="images/video rainbow bagel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <section class="footer-grid" aria-label="Marigold Bagels contact information">
+            <div>
+                <h2>Marigold Bagels</h2>
+                <p>Fresh bagels, coffee, sandwiches, and catering with New York soul and San Diego heart.</p>
+            </div>
+            <address>
+                123 Bagel Street<br>
+                San Diego, CA 92101<br>
+                <a href="mailto:hello@marigoldbagels.com">hello@marigoldbagels.com</a>
+            </address>
+            <div>
+                <p><strong>Open Daily</strong></p>
+                <p>7:00 AM - 3:00 PM</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- jQuery and External JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
