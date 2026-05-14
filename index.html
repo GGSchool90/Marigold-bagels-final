@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marigold Bagels | San Diego Bagel Shop</title>
+    <meta name="description" content="Marigold Bagels is a warm San Diego bagel shop serving fresh bagels, sandwiches, coffee, catering trays, and rainbow bagel specials.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Marigold Bagels home">
+            <img src="images/logo.png" alt="Marigold Bagels logo">
+            <span>Marigold Bagels</span>
+        </a>
+
+        <!-- Main Navigation -->
+        <nav class="site-nav" aria-label="Main navigation">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button>
+            <ul id="main-menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero home-hero">
+            <div class="hero-copy">
+                <p class="eyebrow">New York soul. San Diego heart.</p>
+                <h1>Hand-rolled bagels, bright mornings, and sandwiches worth waking up for.</h1>
+                <p>Small-batch bagels boiled and baked daily with house spreads, coffee, breakfast sandwiches, and catering for every kind of gathering.</p>
+                <div class="button-row">
+                    <a class="button primary" href="menu.html">View Menu</a>
+                    <a class="button secondary" href="catering.html">Order Catering</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Specials -->
+        <section class="section feature-strip" aria-labelledby="today-heading">
+            <div class="section-heading">
+                <p class="eyebrow">Fresh today</p>
+                <h2 id="today-heading">Made for the morning rush</h2>
+                <p>Everything on the board is built around chewy bagels, crisp edges, and toppings that actually taste like something.</p>
+            </div>
+
+            <div class="card-grid three-up">
+                <article class="feature-card">
+                    <img src="images/eggandcheese.jpg" alt="Egg and cheese bagel sandwich cut in half">
+                    <h3>Breakfast Bagels</h3>
+                    <p>Egg sandwiches, melty cheese, bacon, avocado, and hot honey options on your favorite bagel.</p>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/basket-bagels.jpg" alt="Basket filled with golden bagels">
+                    <h3>Dozens & Spreads</h3>
+                    <p>Classic bagels by the single, half dozen, or dozen with plain, scallion, veggie, and seasonal schmears.</p>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/salmon bagel.jpg" alt="Salmon bagel with cream cheese, capers, and dill">
+                    <h3>Lox & Brunch</h3>
+                    <p>Smoked salmon, cream cheese, capers, tomato, onion, and fresh dill for a classic weekend order.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Visit Information -->
+        <section class="section split-section" aria-labelledby="visit-heading">
+            <div>
+                <img class="rounded-image" src="images/bagel-shop.jpg" alt="Bagel shop counter with fresh bagels in bins">
+            </div>
+            <div class="split-copy">
+                <p class="eyebrow">Come by early</p>
+                <h2 id="visit-heading">A neighborhood counter with a bakery heartbeat.</h2>
+                <p>Marigold is built for quick weekday stops, weekend coffee runs, and group orders that keep everybody happy. Our bagels sell through fast, so the best move is always early.</p>
+                <ul class="check-list">
+                    <li>Bagels baked fresh every morning</li>
+                    <li>Vegetarian-friendly sandwich options</li>
+                    <li>Catering trays for teams, classes, and parties</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Aside Content -->
+        <aside class="callout" aria-labelledby="hours-heading">
+            <div>
+                <h2 id="hours-heading">Hours</h2>
+                <p>Open daily from 7:00 AM to 3:00 PM, or until the bagels sell out.</p>
+            </div>
+            <a class="button primary" href="contact.html">Plan a Visit</a>
+        </aside>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <section class="footer-grid" aria-label="Marigold Bagels contact information">
+            <div>
+                <h2>Marigold Bagels</h2>
+                <p>Fresh bagels, coffee, sandwiches, and catering with New York soul and San Diego heart.</p>
+            </div>
+            <address>
+                123 Bagel Street<br>
+                San Diego, CA 92101<br>
+                <a href="mailto:hello@marigoldbagels.com">hello@marigoldbagels.com</a>
+            </address>
+            <div>
+                <p><strong>Open Daily</strong></p>
+                <p>7:00 AM - 3:00 PM</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- jQuery and External JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
