@@ -27,4 +27,12 @@ $(function () {
             this.reportValidity();
         }
     });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+            $('#backToTopBtn').fadeIn();
+        } else {
+            $('#backToTopBtn').fadeOut();
+        }
+    });
 });

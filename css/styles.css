@@ -378,6 +378,12 @@ h3 {
     border-color: var(--cream);
 }
 
+.bakery-image {
+    grid-row: 3 ;
+}
+.first-bite {
+    grid-row: 2;
+}
 /* Menu */
 .menu-section {
     background: var(--paper);
@@ -611,6 +617,16 @@ address {
     font-style: normal;
 }
 
+/* Back to Top Button */
+
+.backToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        text-decoration: none;
+        display: none;
+    }
+
 /* Tablet Layout */
 @media (max-width: 900px) {
     .site-header {
@@ -644,6 +660,14 @@ address {
 
     .gallery-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .bakery-image {
+    grid-row: 3;
+    }
+
+    .first-bite {
+    grid-row: 4;
     }
 }
 
@@ -734,5 +758,13 @@ address {
 
     form {
         padding: 1rem;
+    }
+
+    .bakery-image {
+    grid-row: 3;
+    }
+    
+    .first-bite {
+    grid-row: 4;
     }
 }
