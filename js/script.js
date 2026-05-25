@@ -27,4 +27,13 @@ $(function () {
             this.reportValidity();
         }
     });
+
+    $('.accordion-header').click(function() {
+        if ($(this).next('.accordion-content').is(':visible')) {
+            $(this).next('.accordion-content').slideUp();
+        } else {
+            $('.accordion-content').slideUp();
+            $(this).next('.accordion-content').slideDown();
+        }
+    });
 });

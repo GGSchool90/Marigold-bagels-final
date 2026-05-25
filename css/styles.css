@@ -445,14 +445,23 @@ h3 {
 }
 .accordion-item {
     border-bottom: 1px solid var(--cream);
+    position: relative;
 }
 .accordion-header {
     color: var(--cream);
     text-transform: capitalize;
+    cursor: pointer;
+    padding: 15px 0;
+    transition: color 0.3s;
+}
+.accordion-header:hover {
+    color: var(--marigold)
 }
 .accordion-content {
+    display: none;
+    overflow: hidden;
     background: var(--cream);
-    padding: 15px;
+    padding: 15px 5px;
 }
 
 /* Gallery and Video */
