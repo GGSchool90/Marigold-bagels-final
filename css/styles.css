@@ -157,6 +157,10 @@ a {
     background-image: url("../images/bagel-sandwich.jpg");
 }
 
+.faq-hero {
+    background-image: url("../images/bagel-kitchen.jpg");
+}
+
 .hero-copy,
 .page-hero > div {
     max-width: 760px;
@@ -434,6 +438,21 @@ h3 {
 .menu-item strong {
     color: var(--tomato);
     white-space: nowrap;
+}
+/* FAQ Section */
+.accordion-panel {
+    background-color: var(--coffee);
+}
+.accordion-item {
+    border-bottom: 1px solid var(--cream);
+}
+.accordion-header {
+    color: var(--cream);
+    text-transform: capitalize;
+}
+.accordion-content {
+    background: var(--cream);
+    padding: 15px;
 }
 
 /* Gallery and Video */
