@@ -32,7 +32,15 @@ $(function () {
         if ($(this).scrollTop() > 300) {
             $('#backToTopBtn').fadeIn();
         } else {
-            $('#backToTopBtn').fadeOut();
+            $('#backToTopBtn').fadeOut()};
+    });
+
+    $('.accordion-header').click(function() {
+        if ($(this).next('.accordion-content').is(':visible')) {
+            $(this).next('.accordion-content').slideUp();
+        } else {
+            $('.accordion-content').slideUp();
+            $(this).next('.accordion-content').slideDown();
         }
     });
 });
