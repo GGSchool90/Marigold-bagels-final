@@ -697,6 +697,8 @@ address {
     .first-bite {
     grid-row: 4;
     }
+
+    
 }
 
 /* Phone Layout */
@@ -795,4 +797,12 @@ address {
     .first-bite {
     grid-row: 4;
     }
+    
+    .backToTopBtn {
+        padding: 5px;
+        position: fixed;
+        bottom: 1px;
+        right: 0;
+    }
+
 }
